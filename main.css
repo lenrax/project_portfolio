@@ -9,6 +9,7 @@ html
 body
 {
 	margin: 0;
+	background-color: black;
 }
 
 div
@@ -16,16 +17,19 @@ div
 	display: flex;
 	/*border: 2px solid rgb(0, 255, 166);*/
 }
-
-#bg_img
+.bg_div
 {
+	position: fixed;
+	z-index: -10;
 	height: 100vh;
 	width: 100%;
-	position: fixed;
-	flex-direction: column;
-	justify-content: center;
-	z-index: -10;
-	
+	justify-content: end;
+	align-items: center;
+}
+#bg_img
+{
+	height: 80vh;
+	margin-right: 200px;
 }
 
 .main_div

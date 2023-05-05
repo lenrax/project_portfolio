@@ -3,8 +3,11 @@
     min-height: 100vh;
     width: 100%;
     justify-content: center;
-    background-color: black;
     padding-top: 50px;
+}
+.intro_div div
+{
+    
 }
 
 .intro_div_con
@@ -12,6 +15,7 @@
     min-height: 100vh;
     width: 1300px;
     align-items: center;
+    flex-direction: row;
 }
 
 .intro_div_left
