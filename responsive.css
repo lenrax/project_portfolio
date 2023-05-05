@@ -40,7 +40,14 @@
     .projects_div_con
     {
         width: 100%;
-        padding: 30px
+        padding: 30px;
+        grid-template-columns: auto !important;
+        grid-gap: 50px
+    }
+
+    .project_card
+    {
+        width: 100%;
     }
 
     .contact_div_con
@@ -64,5 +71,19 @@
     {
         width: 100%;
         justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 1300px)
+{
+    .projects_div_con
+    {
+        width: 100%;
+        grid-template-columns: auto auto;
+    }
+
+    .project_card
+    {
+        margin: 0;
     }
 }

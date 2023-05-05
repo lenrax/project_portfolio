@@ -11,7 +11,7 @@
 
 .projects_div_top
 {
-    width: 1300px;
+    width: 100%;
 }
 
 .projects_div_con
@@ -19,7 +19,9 @@
     min-height: 100vh;
     width: 1300px;
     display: grid !important;
+    grid-gap: 50px;
     grid-template-columns: auto auto auto;
+    padding: 20px;
 }
 
 .projects_div_top h1
@@ -32,12 +34,10 @@
 .project_card
 {
     height: 400px;
-    width: 350px;
     flex-direction: column;
     background-color: rgb(20, 20, 20);
     padding: 20px;
     box-shadow: 0 0 50px blueviolet;
-    margin: 20px;;
 }
 
 .project_card div
