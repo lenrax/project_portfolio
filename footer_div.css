@@ -12,6 +12,8 @@
     width: 1300px;
     height: 70px;
     flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .footer_div_con div
