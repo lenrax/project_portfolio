@@ -64,7 +64,7 @@
     .footer_div_con
     {
         width: 100%;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .footer_div_con div
