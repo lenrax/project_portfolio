@@ -14,6 +14,7 @@
 		<link href = "social_media_buttons.css" rel = "stylesheet">
 		<link href = "responsive.css" rel = "stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script src = "main.js"></script>
     </head>
 	<body>
 		<div class = "bg_div">
@@ -23,12 +24,12 @@
 		<div class = "main_div">
 			<div class = "top_div">
 				<div class = "brand_div">
-					<a href = "#"><b>A.H. &nbsp</b></a><p>&nbsp | &nbsp Front-End Developer</p>
+					<a href = "#" id = "home_btn"><b>A.H. &nbsp</b></a><p>&nbsp | &nbsp Front-End Developer</p>
 				</div>
 				<div class = "nav_bar">
-					<a href = "#about_div">About</a>
-					<a href = "#projects_div">PROJECTS</a>
-					<a href = "#contact_div">Contact</a>
+					<a href = "#" id = "about_div_btn">About</a>
+					<a href = "#" id = "projects_div_btn">PROJECTS</a>
+					<a href = "#" class = "contact_div_btn">Contact</a>
 				</div>
 			</div>
 			<div class = "middle_div">
@@ -38,7 +39,7 @@
 							<b>Hello,</b>
 							<b>My name is</b> <h1>Arnel,</h1>
 							<b>Front-End Developer</b>
-							<button>Contact Me</button>
+							<button class = "contact_div_btn">Contact Me</button>
 							<div></div>
 						</div>
 					</div>
@@ -55,7 +56,7 @@
 							
 							<p>I'm excited about the prospect of working on new projects and utilizing my proficiency in HTML, CSS, and JavaScript to bring innovative designs to life!</p>
 	
-							<a href = "#"><b>Let's take it to the next level.<b></a>
+							<a href = "#" class = "contact_div_btn"><b>Let's take it to the next level.<b></a>
 						</div>
 					</div>
 				</div>
@@ -165,8 +166,8 @@
 						</div>
 					</div>
 				</div>
-				<div class = "contact_div">
-					<div class = "contact_div_con" id = "contact_div">
+				<div class = "contact_div" id = "contact_div">
+					<div class = "contact_div_con">
 						<h1>*Send me a message</h1>
 						<form action = "POST" class = "contact_form" id = "contact_form" name = "contact_form">
 							
