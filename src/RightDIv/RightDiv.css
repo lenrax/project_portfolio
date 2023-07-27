@@ -1,0 +1,12 @@
+.right_div
+{
+	width: 50%;
+	min-height: 100vh;
+}
+
+.right_div_con
+{ 
+    width: 100%;
+	min-height: 100vh;
+    flex-direction: column;
+}

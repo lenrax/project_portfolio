@@ -1,0 +1,89 @@
+@media only screen and (max-width: 1000px)
+{
+    .top_div
+    {
+        flex-direction: column;
+    }
+    .top_div div
+    {
+        justify-content: center;
+        width: 100% !important;
+    }
+
+    .intro_div_con
+    {
+        width: 100%;
+    }
+
+    .intro_div_left
+    {
+        width: 100%;
+    }
+
+    .about_div_con
+    {
+        width: 100%;
+    }
+
+    .about_div_right
+    {
+        width: 100%;
+        padding: 50px;
+    }
+
+    .projects_div_top
+    {
+        width: 100%;
+        padding: 30px
+    }
+
+    .projects_div_con
+    {
+        width: 100%;
+        padding: 30px;
+        grid-template-columns: auto !important;
+        grid-gap: 50px
+    }
+
+    .project_card
+    {
+        width: 100%;
+    }
+
+    .contact_div_con
+    {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .contact_form
+    {
+        width: 100%;
+    }
+
+    .footer_div_con
+    {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .footer_div_con div
+    {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 1300px)
+{
+    .projects_div_con
+    {
+        width: 100%;
+        grid-template-columns: auto auto;
+    }
+
+    .project_card
+    {
+        margin: 0;
+    }
+}

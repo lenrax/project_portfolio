@@ -1,0 +1,61 @@
+.left_div
+{
+    height: 100vh;
+    width: 50%;
+    justify-content: center;
+	flex-direction: column;
+	position: sticky !important;
+	top: 0;
+}
+
+.left_div_con
+{
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+}
+
+.left_div_con #f_letter
+{
+    font-size: 110px;
+    color:blueviolet;
+}
+
+.left_div_con b
+{
+    font-size: 25px;
+    color: white;
+}
+.left_div_con h1
+{
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+    color: white;
+}
+.left_div_con h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+    color: white;
+}
+
+.left_div_con button
+{
+    width: 150px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+.left_div_con button:hover
+{
+    border: 2px solid white;
+    background-color: rgb(190, 120, 255);
+    cursor: pointer;
+    transform: scale(1.1);
+}

@@ -1,0 +1,34 @@
+.nav_bar
+{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    height: 100%;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+}
+
+.nav_bar a
+{
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.3s;
+}
+
+.nav_bar a:hover
+{
+    transform: scale(1.2);
+    color: white;
+    cursor: pointer;
+    text-shadow: 0 0 50px rgb(255, 255, 255);
+}
+
+.nav_bar span
+{
+    font-size: 32px;
+    color: blueviolet;
+}
