@@ -8,11 +8,11 @@ function About()
 
         <div className = "about_div" id = "about_div">
             <div className = "about_div_con">
-                <p>I am a front-end developer in the Philippines with a passion for designing beautiful and intuitive user interfaces. With over three years of experience in the industry, I have developed a deep understanding of UI/UX design and am proficient in HTML, CSS, and JavaScript. I use these languages to bring my creative vision to life and create engaging web experiences.</p>
+                <p>I am a skilled front-end developer based in the Philippines, with a strong passion for crafting user-friendly interfaces. My expertise lies in UI/UX design, HTML, CSS, and JavaScript, which serve as the foundation for translating my creative ideas into captivating web experiences.</p>
     
-                <p>One of my core values is a dedication to responsive design, ensuring that the websites I build work flawlessly on any device. Whether it's a desktop or a mobile phone, I strive to provide a seamless and optimized user experience. Attention to detail and a sharp eye for aesthetics are qualities I take pride in, as they contribute to the high-quality work I deliver.</p>
+                <p>A fundamental value I hold is a dedication to responsive design, ensuring flawless functionality across all devices, be it desktop or mobile. I strive to deliver seamless and optimized user experiences.</p>
                 
-                <p>Approaching every project with enthusiasm and a commitment to excellence is my mindset, regardless of its size. My skills and expertise enable me to tackle any web development task, utilizing HTML, CSS, and JavaScript to implement interactive and dynamic features. I aim to create unique and memorable user experiences that leave a lasting impression on visitors.</p>
+                <p>With proficiency in HTML, CSS, and JavaScript, I create captivating web experiences that function seamlessly on various devices. My strong commitment to excellence and enthusiasm empower me to handle diverse web development challenges effectively.</p>
                 
                 <p>I'm excited about the prospect of working on new projects and utilizing my proficiency in HTML, CSS, and JavaScript to bring innovative designs to life!</p>
     
