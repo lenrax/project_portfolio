@@ -1,0 +1,27 @@
+ .container {
+    /* Set the size of the container */
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .custom-cursor {
+    /* Set the size of the cursor */
+    width: 1px;
+    height: 1x;
+  
+    /* Add a reasonable drop shadow effect */
+    box-shadow: 0 0 999px 100px blueviolet; /* Adjust the shadow color and other properties */
+    border-radius: 50%; /* Make it circular to match the cursor shape */
+  
+    /* Center the cursor in the container */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    /* Ensure the cursor doesn't interfere with interactions */
+    pointer-events: none;
+  }
+  
+  
